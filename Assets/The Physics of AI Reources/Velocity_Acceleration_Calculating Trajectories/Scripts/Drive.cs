@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Drive : MonoBehaviour {
-    public float speed = 0.05f;
-    public float rotationSpeed = 100.0f;
+    public float speed = 15f;
+    public float rotationSpeed = 100;
     public Transform transGun;
     public Transform gun;
     public GameObject bulletObj;
