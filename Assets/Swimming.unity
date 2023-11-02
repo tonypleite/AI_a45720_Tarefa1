@@ -262,11 +262,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishPrefab: {fileID: 1733855665772604, guid: b0489fdb6d64a4a4ba8e194e561d60cd, type: 3}
-  numFish: 40
+  numFish: 20
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
-  minSpeed: 0.29
-  maxSpeed: 1.12
+  minSpeed: 1.04
+  maxSpeed: 2.3
+  neighbourDistance: 10
+  rotationSpeed: 2.6
 --- !u!850595691 &520757917
 LightingSettings:
   m_ObjectHideFlags: 0
