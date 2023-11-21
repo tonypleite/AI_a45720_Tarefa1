@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class WaypointDebug : MonoBehaviour {
+public class WaypointDebug : MonoBehaviour 
+{
 
 	void RenameWPs(GameObject overlook)
 	{
